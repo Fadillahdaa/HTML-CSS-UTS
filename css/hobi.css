@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #7296a4;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+nav {
+    background: #9ebecb;
+    padding: -10px;
+    text-align: left;
+}
+nav ul {
+    list-style-type: none;
+    text-align: left; /* Mengatur agar link berada di tengah */
+}
+nav ul li {
+    display: inline-block; /* Menyusun link secara horizontal */
+    margin-right: 20px; /* Memberikan jarak antar link */
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+nav ul li:hover a {
+color: lightskyblue; /* Mengubah warna teks menjadi merah saat kursor di atasnya */
+}
+
+header h2 {
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bayangan teks */
+font-weight: bold; /* Tebal */
+font-size: 50px; /* Ukuran teks */
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+article {
+    flex: 1;
+    padding: 20px;
+    background-color: #e6f0f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+article div {
+    margin-top: 25px; /* Menggeser teks ke atas */
+    
+}
+
+article h1 {
+    color: #4a707a;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+article h3 {
+    color: #7697a0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify; /* Ratakan teks kiri dan kanan */
+    padding:0 30px; /* Padding kiri dan kanan */
+}
+article img {
+    width: 20%; /* Lebar gambar 100% dari parent element */
+    height: 40%; /* Tinggi gambar menyesuaikan lebar dengan aspect ratio yang sama */
+    transition: transform 0.3s; /* Transisi untuk efek membesar */
+    margin: 25px; /* Jarak gambar */
+    margin-top: 45px;
+}
+
+/* CSS untuk efek membesar saat dihover */
+article img:hover {
+    transform: scale(1.1); /* Memperbesar gambar 1.1x saat dihover */
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+    }
+}

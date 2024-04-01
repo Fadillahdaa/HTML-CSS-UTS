@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #7296a4;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+nav {
+    background: #9ebecb;
+    padding: -10px;
+    text-align: left;
+}
+nav ul {
+    list-style-type: none;
+    text-align: left; /* Mengatur agar link berada di tengah */
+}
+nav ul li {
+    display: inline-block; /* Menyusun link secara horizontal */
+    margin-right: 20px; /* Memberikan jarak antar link */
+}
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+nav ul li:hover a {
+color: lightskyblue; /* Mengubah warna teks menjadi merah saat kursor di atasnya */
+}
+
+header h2 {
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bayangan teks */
+font-weight: bold; /* Tebal */
+font-size: 50px; /* Ukuran teks */
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+article {
+    flex: 1;
+    padding: 20px;
+    background-color: #e6f0f2;
+    display: flex;
+    align-items: center; /* Memusatkan elemen vertikal */
+    justify-content: space-around; /* Mengatur jarak antara gambar dan teks */
+}
+
+article div {
+    margin-top: 30px;
+    background-color: #fff; /* Warna background kotak */
+    padding: 50px; /* Padding agar konten tidak terlalu dekat dengan border */
+    border-radius: 8px; /* Border radius untuk membuat sudut kotak melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk memberikan kesan 3D */
+}
+
+article h1 {
+    color: #4a707a;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 2px;
+    margin-top:2px;
+ 
+}
+.atas {
+    background-color: #e2e2e2;
+}
+.bawah{
+    background-color: #e2e2e2;
+}
+.photo {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px); /* Lebar 1/3 dari container dengan margin 20px */
+    height: auto;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+    }
+}

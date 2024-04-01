@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #7296a4;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+nav {
+    background: #9ebecb;
+    padding: -10px;
+    text-align: left;
+}
+nav ul {
+    list-style-type: none;
+    text-align: left; /* Mengatur agar link berada di tengah */
+}
+nav ul li {
+    display: inline-block; /* Menyusun link secara horizontal */
+    margin-right: 20px; /* Memberikan jarak antar link */
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+nav ul li:hover a {
+color: lightskyblue; /* Mengubah warna teks menjadi merah saat kursor di atasnya */
+}
+
+header h2 {
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bayangan teks */
+font-weight: bold; /* Tebal */
+font-size: 50px; /* Ukuran teks */
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+article {
+    flex: 1;
+    padding: 20px;
+    background-color: #e6f0f2;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    height: 100vh;
+}
+article div {
+    margin-top: 25px; /* Menggeser teks ke atas */
+    
+}
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        th {
+            background-color: #bdb6b6;
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        td {
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+            background-color: #e6e4e4;
+        }
+
+article h1 {
+    color: #4a707a;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+article h3 {
+    color: #7697a0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify; /* Ratakan teks kiri dan kanan */
+    padding:0 30px; /* Padding kiri dan kanan */
+
+}
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+    }
+}
