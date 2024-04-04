@@ -3,49 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOBI</title>
+    <title>HALAMAN PROFIL</title>
     <link rel="icon" type="img/png" href="gambar/12.jpg" sizes="50x50"/>
     <link rel="stylesheet" href="css/hobi.css">
-</head>
-<body>
-    <header>
-        <h2> Welcome To My Website </h2>
-    </header>
-    <section>
-        <nav>
+<body style="background-image: url(gambar/pantai.jpg); background-size: cover;">
+    <div class="main">
+        <div class="navbar">
+            <label class="logo">Hobi Website_Fadillahda</label>
             <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Profil.html">Profil</a></li>
-                <li><a href="Tentang-Saya.html">Tentang Saya</a></li>
-                <li><a href="Jadwal-Perkuliahan.html">Jadwal</a></li>
-                <li><a href="Hobi.html">Hobi</a></li>
-                <li><a href="Pendaftaran.html">Pendaftaran</a></li>      
+                <li><a href="Halaman_utama.html">HOME</a></li>
+                <li><a href="Profil.html">PROFIL</a></li>
+                <li><a href="Tentang-Saya.html">TENTANG SAYA</a></li>
+                <li><a href="Jadwal-Perkuliahan.html">JADWAL</a></li>
+                <li><a href="Hobi.html">HOBI</a></li>
             </ul>
-        </nav>
-        <article>
-            <div>
-                <h1><i>INI ADALAH BEBERAPA HOBI SAYA<i></i></h1>
-                <h3>Ada beberapa hobi yang saya gemari, yaitu memasak, mendengarkan musik, dan membaca. Saya menyukai hobi saya ini, karena itu membuat saya senang.
-                    Saya tidak melakukan hobi saya sekaligus, tetapi jika saya merasa bosan dengan hobi saya yang
-                    1 maka saya akan melakukan yang lainnya. Akan tetapi saya lebih sering melakukan
-                    hobi mendengarkan musik karena saya mendengarkannya setiap hari. Dan untuk hobi saya yang memasak, 
-                    saya akan melkukannya apabila senggang. Dan untuk membaca sendiri saya melakukannya abapila mood.
-                </h3>
-                
+        </div>
+        <div class="blur-box"></div> <!-- Blur box di atas konten hobi -->
+        <div class="container">
+            <h1>HOBI SAYA</h1>
+            <div class="hobi">
+                <div class="hobi-item" onclick="window.location.href='https://id.wikipedia.org/wiki/Memasak';">
+                    <img src="gambar/cooking.jpg" alt="Memasak">
+                    <div class="info">
+                        <h2>Memasak</h2>
+                        <p>Memasak adalah kegiatan yang melibatkan proses mempersiapkan, memasak, dan menyajikan makanan.
+                            Memasak bisa menjadi cara yang menyenangkan untuk mengungkapkan kreativitas dalam menciptakan hidangan 
+                            yang lezat. Selain itu, memasak juga bisa menjadi kegiatan yang relaksasi dan membangkitkan semangat, 
+                            terutama ketika kita melihat orang lain menikmati hasil masakan yang telah kita buat.</p>
+                    </div>
+                </div>
+                <div class="hobi-item" onclick="window.location.href='https://id.wikipedia.org/wiki/Membaca';">
+                    <img src="gambar/membaca.jpg" alt="Membaca">
+                    <div class="info">
+                        <h2>Membaca</h2>
+                        <p>Membaca adalah kegiatan yang tidak hanya menyenangkan tetapi juga memberikan banyak manfaat. Dengan 
+                        membaca, kita bisa memperluas pengetahuan dan wawasan kita tentang berbagai hal. Membaca juga bisa menjadi 
+                        bentuk hiburan yang murah dan bisa dilakukan di mana saja. Buku-buku juga bisa menjadi teman yang baik untuk 
+                        mengisi waktu luang dan mengurangi stres.
+                        </p>
+                    </div>
+                </div>
+                <div class="hobi-item" onclick="window.location.href='https://www.roojai.co.id/article/gaya-hidup/manfaat-mendengarkan-musik/';">
+                    <img src="gambar/musik2.jpg" alt="Musik">
+                    <div class="info">
+                        <h2>Musik</h2>
+                        <p>Mendengarkan Musik adalah kegiatan yang memiliki efek positif pada suasana hati dan emosi kita. Musik bisa 
+                        menjadi pengiring dalam berbagai aktivitas sehari-hari, dari pekerjaan rumah tangga hingga saat bekerja. 
+                        Mendengarkan musik juga bisa menjadi cara yang baik untuk melepas stres dan merasa lebih rileks.</p>
+                    </div>
+                </div>
             </div>
-            <a href="https://id.wikipedia.org/wiki/Memasak">
-                <img src="gambar/cooking.jpg" alt="Deskripsi Foto 1">
-            </a>
-            <a href="https://www.roojai.co.id/article/gaya-hidup-kesehatan/manfaat-mendengarkan-musik/">
-                <img src="gambar/Music.jpg" alt="Deskripsi Foto 2">
-            </a>
-            <a href="https://id.wikipedia.org/wiki/Membaca">
-                <img src="gambar/membaca.jpg" alt="Deskripsi Foto 3">
-            </a>
-        </article>
-    </section>
-    <footer>
-        <p><i>copyright@Fadillahda_233307048_2024</i></p>
-    </footer>
+        </div>
+    </div>
 </body>
 </html>
