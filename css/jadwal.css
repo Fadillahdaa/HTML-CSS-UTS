@@ -137,7 +137,7 @@ body {
 .kotak h1 {
     font-size: 80px;
     margin-top: 80px;
-    color: white;
+    color: black;
     z-index: 1; /* Mengatur lapisan di atas elemen blur */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
     position: relative; /* Mengatur posisi relatif untuk memungkinkan penempatan blur-box */

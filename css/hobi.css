@@ -126,7 +126,7 @@ h1 {
 .hobi-item {
     width: calc(33.33% - 20px);
     margin: 10px;
-    background-color: #fff;
+    background-color: #e6f0f2;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
